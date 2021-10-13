@@ -13,8 +13,6 @@ fi
 sleep 2
 echo " diyan berhasil di install"
 sleep 2
-echo " ketik base pada terminal untuk menjalankan tools diyan"
-sleep 2
-echo " terima kasih dan sampai jumpa di auto installer selanjutnya"
+echo " ketik diyan pada terminal untuk menjalankan tools diyan"
 sleep 2
 rm -rf /root/install.sh
