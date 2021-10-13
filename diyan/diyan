@@ -36,20 +36,10 @@ esac
 
 
 clear
-echo -e "$DB ******************************************************"
-echo -e "$DB ******************************************************"
-echo -e " **                                                  **"
-echo -e "$DB **$R      SELAMAT DATANG DI diyan      $DB**"
-echo -e " **                                                  **"
-echo -e "$DB ******************************************************"
-echo -e "$DB **$Y       PILIH TOOLS YANG AKAN DI INSTALL!!!        $DB**"
-echo -e "$DB ******************************************************"
-echo -e "$DB **$G        DAFTAR :                    *  PERINTAH : $DB**"
-echo -e "$DB **$G Menampilkan Tanggal                *    diyan 1    $DB**"
-echo -e "$DB **$G Menampilkan kalender               *    diyan 2    $DB**"
-echo -e "$DB ******************************************************"
-echo -e "$DB **$Y         @Dsantos3526          $DB**"
-echo -e "$DB ******************************************************"
-echo -e "$DB ******************************************************"
-echo -e "$Y"
+echo "====================Menu Diyan ==================== "
+echo "=                                       = "
+echo "===== PILIH SALAH SATU TOOLS DIINGINKAN!!! ====="
+echo "DAFTAR PERINTAH :
+echo "Menampilkan Tanggal                          diyan 1"
+echo "Menampilkan Kalender                         diyan 2"
 exit
