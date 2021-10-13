@@ -1,24 +1,24 @@
 #!/bin/bash
 clear
 
-openwrt(){
+open(){
 echo "$(openwrt)"
 }
 
-debian(){
+deb(){
 echo "$(debian)"
 }
 
 
 case $1 in
 "1")
-openwrt;exit
+open;exit
 ;;
 esac
 
-debian $1 in
+deb $1 in
 "2")
-kalender;exit
+deb;exit
 ;;
 esac
 
