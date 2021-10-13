@@ -1,0 +1,57 @@
+#!/bin/bash
+clear
+
+nano(){
+read -p "Apakah anda yakin install "nano" ? (y/n) : " an
+if [[ $an == "y" || $an == "Y" ]]; then
+echo "Memulai install nano"
+sleep 2
+clear
+sudo apt-get install nano
+sleep 2
+else
+clear
+echo "Ke menu Utama..."
+sleep 2
+clear
+fi
+exit
+}
+
+iftop(){
+read -p "Apakah anda yakin install "iftop" ? (y/n) : " an
+if [[ $an == "y" || $an == "Y" ]]; then
+echo "Memulai install iftop"
+sleep 2
+clear
+sudo apt-get install iftop
+sleep 2
+else
+clear
+echo "Ke menu Utama..."
+sleep 2
+clear
+fi
+exit
+}
+
+
+case $1 in
+"1")
+nano;exit
+;;
+esac
+
+case $1 in
+"2")
+iftop;exit
+;;
+esac
+
+clear
+echo "================== Menu Diyan =================="
+echo "=                                             = "
+echo "=====           PILIH Tool OS !!!          ====="
+echo "Install nano                             diyan 1"
+echo "Install iftop                            diyan 2"
+exit
