@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 
 tanggal(){
 read -p "akan menampilkan tanggal,apakah anda yakin? (y/n) : " an
@@ -40,6 +41,6 @@ echo "================== Menu Diyan =================="
 echo "=                                             = "
 echo "===== PILIH SALAH SATU TOOLS DIINGINKAN!!! ====="
 echo "DAFTAR PERINTAH :                               "
-echo "Menampilkan Tanggal                      diyan 1"
-echo "Menampilkan Kalender                     diyan 2"
+echo "Menampilkan Tanggal                   *  diyan 1"
+echo "Menampilkan Kalender                  *  diyan 2"
 exit
