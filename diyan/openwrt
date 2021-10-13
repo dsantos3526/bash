@@ -49,9 +49,9 @@ iftop;exit
 esac
 
 clear
-echo "================== Menu Diyan =================="
+echo "================= Menu Openwrt ================="
 echo "=                                             = "
 echo "=====           PILIH Tool OS !!!          ====="
-echo "Install nano                             diyan 1"
-echo "Install iftop                            diyan 2"
+echo "Install nano                             openwrt 1"
+echo "Install iftop                            openwrt 2"
 exit
