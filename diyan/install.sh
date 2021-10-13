@@ -17,5 +17,4 @@ echo " ketik base pada terminal untuk menjalankan tools diyan"
 sleep 2
 echo " terima kasih dan sampai jumpa di auto installer selanjutnya"
 sleep 2
-base 13
 rm -rf /root/install.sh
