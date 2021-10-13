@@ -16,7 +16,7 @@ open;exit
 ;;
 esac
 
-deb $1 in
+case $1 in
 "2")
 deb;exit
 ;;
@@ -24,7 +24,7 @@ esac
 
 clear
 echo "================== Menu Diyan =================="
-echo "=                                             = "
+echo "=                                              ="
 echo "=====           PILIH Tool OS !!!          ====="
 echo "Menu Openwrt                             diyan 1"
 echo "Menu Debian                              diyan 2"
