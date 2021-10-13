@@ -7,13 +7,13 @@ rm -rf /usr/bin/diyan
 rm -rf /usr/bin/openwrt
 wget --no-check-certificate "https://raw.githubusercontent.com/dsantos3526/bash/main/diyan/diyan" -P /usr/bin &> /dev/null
 chmod 777 /usr/bin/diyan &> /dev/null
-wget --no-check-certificate "https://raw.githubusercontent.com/dsantos3526/bash/main/diyan/openwrt" -P /usr/bin &> /dev/null
-chmod 777 /usr/bin/openwrt &> /dev/null
+wget --no-check-certificate "https://raw.githubusercontent.com/dsantos3526/bash/main/diyan/openwrt" -P /usr/bin &> 2>/dev/null
+chmod 777 /usr/bin/openwrt &> 2>/dev/null
 else
 wget --no-check-certificate "https://raw.githubusercontent.com/dsantos3526/bash/main/diyan/diyan" -P /usr/bin &> /dev/null
 chmod 777 /usr/bin/diyan &> /dev/null
-wget --no-check-certificate "https://raw.githubusercontent.com/dsantos3526/bash/main/diyan/openwrt" -P /usr/bin &> /dev/null
-chmod 777 /usr/bin/openwrt &> /dev/null
+wget --no-check-certificate "https://raw.githubusercontent.com/dsantos3526/bash/main/diyan/openwrt" -P /usr/bin &> 2>/dev/null
+chmod 777 /usr/bin/openwrt &> 2>/dev/null
 fi
 sleep 2
 echo " diyan berhasil di install"
