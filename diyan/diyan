@@ -1,0 +1,66 @@
+#!/bin/bash
+
+tanggal(){
+read -p "akan menampilkan tanggal,apakah anda yakin? (y/n) : " an
+if [[ $an == "y" || $an == "Y" ]]; then
+echo -e "Sekarang Tanggal $(date)"
+sleep 2
+clear
+sleep 2
+else
+clear
+echo -e "kembali ke halaman awal..."
+sleep 2
+clear
+exit
+fi
+}
+
+echo -e ""
+kalender(){
+read -p "akan menginstall xderm-mini-gui,pastikan xderm-mini sudah terinstall. apakah anda yakin? (y/n) : " an
+if [[ $an == "y" || $an == "Y" ]]; then
+echo -e "Menampilkan Kalender $(cal)"
+sleep 2
+clear
+sleep 2
+else
+clear
+echo -e "kembali ke halaman awal..."
+sleep 2
+clear
+exit
+fi
+}
+
+case $1 in
+"1")
+tanggal;exit
+;;
+esac
+
+case $1 in
+"2")
+kalender;exit
+;;
+esac
+
+
+clear
+echo -e "$DB ******************************************************"
+echo -e "$DB ******************************************************"
+echo -e " **                                                  **"
+echo -e "$DB **$R      SELAMAT DATANG DI diyan      $DB**"
+echo -e " **                                                  **"
+echo -e "$DB ******************************************************"
+echo -e "$DB **$Y       PILIH TOOLS YANG AKAN DI INSTALL!!!        $DB**"
+echo -e "$DB ******************************************************"
+echo -e "$DB **$G        DAFTAR :                    *  PERINTAH : $DB**"
+echo -e "$DB **$G Menampilkan Tanggal                *    diyan 1    $DB**"
+echo -e "$DB **$G Menampilkan kalender               *    diyan 2    $DB**"
+echo -e "$DB ******************************************************"
+echo -e "$DB **$Y         @Dsantos3526          $DB**"
+echo -e "$DB ******************************************************"
+echo -e "$DB ******************************************************"
+echo -e "$Y"
+exit
