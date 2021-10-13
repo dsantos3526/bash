@@ -36,8 +36,8 @@ esac
 
 
 clear
-echo "====================Menu Diyan ==================== "
-echo "=                                       = "
+echo "================== Menu Diyan =================="
+echo "=                                             = "
 echo "===== PILIH SALAH SATU TOOLS DIINGINKAN!!! ====="
 echo "DAFTAR PERINTAH :
 echo "Menampilkan Tanggal                          diyan 1"
