@@ -1,0 +1,2 @@
+# bash
+Belajar Bash
