@@ -4,31 +4,20 @@ tanggal(){
 read -p "akan menampilkan tanggal,apakah anda yakin? (y/n) : " an
 if [[ $an == "y" || $an == "Y" ]]; then
 echo -e "Sekarang Tanggal $(date)"
-sleep 2
-clear
-sleep 2
 else
 clear
 echo -e "kembali ke halaman awal..."
-sleep 2
-clear
 exit
 fi
 }
 
-echo -e ""
 kalender(){
 read -p "akan menginstall xderm-mini-gui,pastikan xderm-mini sudah terinstall. apakah anda yakin? (y/n) : " an
 if [[ $an == "y" || $an == "Y" ]]; then
 echo -e "Menampilkan Kalender $(cal)"
-sleep 2
-clear
-sleep 2
 else
 clear
 echo -e "kembali ke halaman awal..."
-sleep 2
-clear
 exit
 fi
 }
